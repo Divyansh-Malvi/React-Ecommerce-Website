@@ -1,0 +1,120 @@
+.rightside{
+    h3{
+        color: red;
+    }
+    p{
+        color: grey;
+    }
+}
+.feat{
+    ul{
+        list-style: none;
+    }
+    span{
+        margin-right: 10px;
+    }
+}
+.secbut{
+    button{
+        background-color: black;
+        border: none;
+        color: white;
+        padding: 10px 50px;
+        border-radius: 50px;
+    }
+
+}
+// Footer 
+.foot{
+    // background-color: aqua;
+    background: url(../images/footerback.png) no-repeat center center/cover;
+    // background: url(../images/Supex-Home.png) no-repeat cover cover/center;
+    width: 100%;
+    height: 60vh;
+    z-index: -1;
+}
+
+.mid{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    width: 70%;
+    border-radius: 20px;
+    margin: auto;
+    z-index: 100;
+    
+    
+    
+      
+    .sub{
+        margin-top: 50px;
+        h1{
+            margin-left: 50px;
+            font-weight: 600;
+            color: black;
+            font-size: 40px;
+        }
+
+        }
+    }
+    .form{
+        // border: solid black 1px;
+        border-radius: 50px;
+        padding: 15px 70px;
+        align-content: center;
+        margin-top: 40px;
+        box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.219);
+        button{
+            background-color: black;
+            color: white;
+            padding: 15px 40px;
+            border: none;
+            border-radius: 50px;
+            font-weight: 500;
+            transition: all 0.4s linear;
+        }
+        button:hover{
+            background-color: white;
+            color: black;
+            border: solid black 1.5px;
+        }
+        input{
+            outline: none;
+            border: none;
+            margin-right: 50px;
+            
+            
+        }
+
+    }
+    .footdown{
+        
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin: 100px;
+        text-align: center;
+        // color: white;
+        color: black;
+        .fir{
+            width: 25%;
+            
+        }
+        .sec{
+           width: 25%;
+        }
+        .trd{
+            width: 25%;
+        }
+        .fort{
+            width: 25%;
+        }
+        li{
+            margin-right: 20px;
+        }
+
+    }
+    .copy{
+        background-color: red;
+    }
+

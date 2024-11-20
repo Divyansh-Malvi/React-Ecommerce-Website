@@ -1,0 +1,11 @@
+{
+    "shop":{
+        "id":"1",
+        "name":"Amino Energy 4B00",
+        "image":"src/images/home_shop_thumb03.png",
+        "price":"$140.99",
+        "type":"home",
+        "category":""
+
+    }
+}
