@@ -4,4 +4,5 @@ import App from './App.jsx'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Css/Style.css"
 import "./Css/StyleAgain.css"
+import "./Css/Home.css"
 createRoot(document.getElementById('root')).render(<App />)

@@ -1,6 +1,11 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { faCheck } from "@fortawesome/free-solid-svg-icons";
+import { PiFlowerLotus } from "react-icons/pi";
+import { PiTestTubeLight } from "react-icons/pi";
+import { GiMedicines } from "react-icons/gi";
+import { GiHeartOrgan } from "react-icons/gi";
+import { SlEnergy } from "react-icons/sl";
 const Home=()=>{
     return(
         <>
@@ -55,6 +60,29 @@ const Home=()=>{
 
     
         </div>
+        {/* New Sec */}
+        <div className="trd">
+            <h1>BEST SELLING PRODUCT</h1>
+        </div>
+        <div className="forth">
+            <h1 style={{textAlign:'center', paddingTop:150, color:'white'}}>FORMULAS FEATURES</h1>
+            <div className="box">
+                <div className="leftb">
+                <div className="iconf" ><h3><PiFlowerLotus/><span>NATURAL INGREDIENTS</span></h3></div>
+                <div className="icons" ><PiTestTubeLight /><span><h3>FISHBONE FORMULA</h3></span></div>
+                <div className="icont" style={{height:'50px', width:'40px' , border:'solid black 1px', borderRadius:20, display:'flex' , justifyContent:"center"}}><GiMedicines /></div>    <span><h3>FLOWER FORMULA</h3></span>
+
+                </div>
+                <div className="rightb">
+                 <div style={{height:'50px', width:'40px' , border:'solid black 1px', borderRadius:20, display:'flex' , justifyContent:"center"}}><span><h3>FISHBONE FORMULA</h3></span><PiTestTubeLight /></div>
+                 <div style={{height:'50px', width:'40px' , border:'solid black 1px', borderRadius:20, display:'flex' , justifyContent:"center"}}> <span><h3>100% FAT BLASTING</h3></span><GiHeartOrgan /></div>
+                 <div style={{height:'50px', width:'40px' , border:'solid black 1px', borderRadius:20, display:'flex' , justifyContent:"center"}}><span><h3>INCREASED ENERGY</h3></span><SlEnergy /></div>   
+                </div>
+
+                
+            </div>
+        </div>
+
         </>
     )
 }
